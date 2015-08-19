@@ -6,7 +6,7 @@ UIkit 2.21.0 中文文档翻译项目
   
 ###首页
   
-index.html                                @yunye
+index.html                                             @yunye
 
 ###开始使用
   
@@ -24,7 +24,7 @@ documentation_custom-prefix.html
   
 ###核心组件
   
-core.html	 
+core.html	                                            @Ccc
   
 base.html	 
 print.html	 
@@ -46,10 +46,10 @@ pagination.html
 tab.html	 
 thumbnav.html	 
   
-list.html	 
-description-list.html	 
-table.html	 
-form.html	 
+list.html	                                            @Ccc
+description-list.html	                                @Ccc
+table.html	                                          @Ccc
+form.html	                                            @Ccc
   
 button.html	 
 icon.html	 
