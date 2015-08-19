@@ -24,7 +24,7 @@ documentation_custom-prefix.html
   
 ###核心组件
   
-core.html	                                            @Ccc
+core.html---------------------------------------------@Ccc
   
 base.html	 
 print.html	 
@@ -46,10 +46,10 @@ pagination.html
 tab.html	 
 thumbnav.html	 
   
-list.html	                                            @Ccc
-description-list.html	                                @Ccc
-table.html	                                          @Ccc
-form.html	                                            @Ccc
+list.html---------------------------------------------@Ccc
+description-list.html---------------------------------@Ccc
+table.html--------------------------------------------@Ccc
+form.html---------------------------------------------@Ccc
   
 button.html	 
 icon.html	 
