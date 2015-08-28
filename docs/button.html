@@ -103,15 +103,15 @@
 
                         <article class="uk-article">
 
-                            <h1 class="uk-article-title">Button</h1>
+                            <h1 class="uk-article-title">按钮</h1>
 
-                            <p class="uk-article-lead">Easily create nicely looking buttons, which come in different styles.</p>
+                            <p class="uk-article-lead">轻松创建拥有不同样式的漂亮按钮。</p>
 
-                            <h2 id="usage"><a href="#usage" class="uk-link-reset">Usage</a></h2>
+                            <h2 id="usage"><a href="#usage" class="uk-link-reset">用法</a></h2>
 
-                            <p>To apply this component, add the <code>.uk-button</code> class to an <code>&lt;a&gt;</code> or <code>&lt;button&gt;</code> element. Now you have created a button. Add the <code>disabled</code> attribute to a <code>&lt;button&gt;</code> element to disable the button.</p>
+                            <p>在<code>&lt;a&gt;</code>元素或<code>&lt;button&gt;</code>元素中添加<code>.uk-button</code>类即可使用按钮组件。在<code>&lt;button&gt;</code>元素中添加<code>disabled</code>属性可以禁用按钮。
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <p>
                                 <a class="uk-button" href="">Link</a>
@@ -119,49 +119,49 @@
                                 <button class="uk-button" type="button" disabled>Disabled</button>
                             </p>
 
-                            <h3 class="tm-article-subtitle">Markup</h3>
+                            <h3 class="tm-article-subtitle">Code</h3>
 
 <pre><code>&lt;a class="uk-button" href=""&gt;...&lt;/a&gt;
 &lt;button class="uk-button" type="button"&gt;...&lt;/button&gt;
 &lt;button class="uk-button" type="button" disabled&gt;...&lt;/button&gt;</code></pre>
 
-                            <p><span class="uk-badge">NOTE</span> If you are displaying a number of buttons in a row, you can add a top margin to them, when they stack on smaller viewports. Just add the <code>data-uk-margin</code> attribute from the <a href="utility.html">Utility component</a> to their parent element.</p>
+                            <p><span class="uk-badge">注意</span> 如果在较小的视窗中试图一行展示多个按钮，可以给它们添加一个顶部外边距（top margin）。再在它们的父元素中添加 <a href="utility.html">效果组件</a>中的<code>data-uk-margin</code>属性即可。
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="color-modifiers"><a href="#color-modifiers" class="uk-link-reset">Color modifiers</a></h2>
+                            <h2 id="color-modifiers"><a href="#color-modifiers" class="uk-link-reset">色彩修饰</a></h2>
 
-                            <p>There are several color modifiers available. Just add one of the following classes to apply a different look.</p>
+                            <p>这里有几个可以修饰颜色的类。添加下列类中的一个，即可得到不同的外观。</p>
 
                             <div class="uk-overflow-container">
                                 <table class="uk-table uk-text-nowrap">
                                     <thead>
                                         <tr>
-                                            <th>Example</th>
-                                            <th>Class</th>
-                                            <th>Description</th>
+                                            <th>示例</th>
+                                            <th>类</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><button class="uk-button uk-button-primary" type="button">Primary</button></td>
                                             <td><code>.uk-button-primary</code></td>
-                                            <td>Emphasizes to identify the primary action in a set of buttons.</td>
+                                            <td>着重强调在一系列按钮中的重要性。</td>
                                         </tr>
                                         <tr>
                                             <td><button class="uk-button uk-button-success" type="button">Success</button></td>
                                             <td><code>.uk-button-success</code></td>
-                                            <td>Indicates a successful or positive action.</td>
+                                            <td>表示成功或积极的行为。</td>
                                         </tr>
                                         <tr>
                                             <td><button class="uk-button uk-button-danger" type="button">Danger</button></td>
                                             <td><code>.uk-button-danger</code></td>
-                                            <td>Indicates a dangerous or negative action.</td>
+                                            <td>表示危险或消极的行为。</td>
                                         </tr>
                                         <tr>
                                             <td><a class="uk-button uk-button-link" href="#">Link</a></td>
                                             <td><code>.uk-button-link</code></td>
-                                            <td>Deemphasizes to look like a link while maintaining button behavior.</td>
+                                            <td>保留按钮行为的同时，使其看起来更像一个连接。</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -169,55 +169,56 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="size-modifiers"><a href="#size-modifiers" class="uk-link-reset">Size modifiers</a></h2>
+                            <h2 id="size-modifiers"><a href="#size-modifiers" class="uk-link-reset">尺寸修饰</a></h2>
 
-                            <p>Add the <code>.uk-button-mini</code>, <code>.uk-button-small</code> or <code>.uk-button-large</code> class to a button to make it smaller or larger.</p>
+                            <p>可以在一个按钮中添加<code>.uk-button-mini</code>, <code>.uk-button-small</code>或<code>.uk-button-large</code> 类使该按钮更大或更小。</p>
 
                             <p>
-                                <button class="uk-button uk-button-mini" type="button">Mini button</button>
+                                <button class="uk-button uk-button-mini" type="button">迷你按钮</button>
                                 <button class="uk-button uk-button-mini uk-button-primary" type="button">Mini button</button>
                             </p>
 
                             <p>
-                                <button class="uk-button uk-button-small" type="button">Small button</button>
+                                <button class="uk-button uk-button-small" type="button">小按钮</button>
                                 <button class="uk-button uk-button-small uk-button-primary" type="button">Small button</button>
                             </p>
 
                             <p>
-                                <button class="uk-button" type="button">Default button</button>
+                                <button class="uk-button" type="button">默认按钮</button>
                                 <button class="uk-button uk-button-primary" type="button">Default button</button>
                             </p>
 
                             <p>
-                                <button class="uk-button uk-button-large" type="button">Large button</button>
+                                <button class="uk-button uk-button-large" type="button">大按钮</button>
                                 <button class="uk-button uk-button-large uk-button-primary" type="button">Large button</button>
                             </p>
 
                             <hr class="uk-article-divider">
 
-                            <h3>Full width button</h3>
+                            <h3>满宽按钮</h3>
 
-                            <p>Add the <code>.uk-width-1-1</code> class from the <a href="grid.html">Grid component</a> and the button will take up full width.</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <p>添加<a href="grid.html">网格组件</a>中的<code>.uk-width-1-1</code>类， 该按钮将占满整个容器宽度。</p>
+
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <p>
                                 <button class="uk-button uk-button-large uk-width-1-1 uk-margin-small-bottom" type="button">Button</button>
                                 <button class="uk-button uk-button-primary uk-button-large uk-width-1-1" type="button">Button</button>
                             </p>
 
-                            <h3 class="tm-article-subtitle">Markup</h3>
+                            <h3 class="tm-article-subtitle">Code</h3>
 
 <pre><code>&lt;button class="uk-button uk-width-1-1 uk-margin-small-bottom"&gt;...&lt;/button&gt;
 &lt;button class="uk-button uk-width-1-1"&gt;...&lt;/button&gt;</code></pre>
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="button-group"><a href="#button-group" class="uk-link-reset">Button group</a></h2>
+                            <h2 id="button-group"><a href="#button-group" class="uk-link-reset">按钮组</a></h2>
 
-                            <p>To create a button group, add the <code>.uk-button-group</code> class to a <code>&lt;div&gt;</code> element around the buttons. That's it! No further markup needed.</p>
+                            <p>创建一个按钮组，在包裹着按钮们的<code>&lt;div&gt;</code>元素中添加<code>.uk-button-group</code>类即可。</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-margin">
                                 <div class="uk-button-group">
@@ -251,7 +252,7 @@
                                 </div>
                             </div>
 
-                            <h3 class="tm-article-subtitle">Markup</h3>
+                            <h3 class="tm-article-subtitle">Code</h3>
 
 <pre><code>&lt;div class="uk-button-group"&gt;
     &lt;a class="uk-button" href=""&gt;...&lt;/a&gt;
@@ -263,23 +264,24 @@
 
                             <h2 id="javascript"><a href="#javascript" class="uk-link-reset">JavaScript</a></h2>
 
-                            <p>You can toggle button states via JavaScript. Just add the data attibute <code>data-uk-button</code>.</p>
+                            <p>你可以添加<code>data-uk-button</code>属性来实现切换按钮状态。</p>
+                            <p>你可以通过JavaScript切换按钮状态。只需要添加<code>data-uk-button</code>属性即可。</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <button class="uk-button uk-button-primary" type="button" data-uk-button>Button</button>
 
-                            <h3 class="tm-article-subtitle">Markup</h3>
+                            <h3 class="tm-article-subtitle">Code</h3>
 
 <pre><code>&lt;button class="uk-button uk-button-primary" type="button" data-uk-button&gt;Button&lt;/button&gt;</code></pre>
 
                             <hr class="uk-article-divider">
 
-                            <h3>Checkbox buttons</h3>
+                            <h3>复选按钮</h3>
 
-                            <p>Toggle between a group of buttons like a checkbox by wrapping a <code>&lt;div&gt;</code> element with the data attribute <code>data-uk-button-checkbox</code> around them. This can also be applied to a button group.</p>
+                            <p>像复选框一样切换一组按钮的状态，需要将这些按钮包裹在带有<code>data-uk-button-checkbox</code>属性的<code>&lt;div&gt;</code>元素中。这属性也能用于按钮组。</p>
 
-                            <h4 class="tm-article-subtitle">Example</h4>
+                            <h4 class="tm-article-subtitle">示例</h4>
 
                             <div class="uk-margin">
                                 <div data-uk-button-checkbox>
@@ -296,7 +298,7 @@
                                 </div>
                             </div>
 
-                            <h3 class="tm-article-subtitle">Markup</h3>
+                            <h3 class="tm-article-subtitle">Code</h3>
 
 <pre><code>&lt;div data-uk-button-checkbox&gt;
     &lt;button class="uk-button"&gt;...&lt;/button&gt;
@@ -306,11 +308,11 @@
 
                             <hr class="uk-article-divider">
 
-                            <h3>Radio buttons</h3>
+                            <h3>单选按钮</h3>
 
-                            <p>Toggle between a group of buttons, like radio buttons, by wrapping a <code>div</code> element that uses <code>data-uk-button-radio</code> around them. This can also be applied to a button group.</p>
+                            <p>想要按钮组像下面例子中一样只能按下一个？用带有<code>data-uk-button-radio</code>属性的<code>div</code>元素包裹一组按钮就行。这个也能用于按钮组。</p>
 
-                            <h4 class="tm-article-subtitle">Example</h4>
+                            <h4 class="tm-article-subtitle">示例</h4>
 
                             <div class="uk-margin">
                                 <div data-uk-button-radio>
@@ -327,7 +329,7 @@
                                 </div>
                             </div>
 
-                            <h3 class="tm-article-subtitle">Markup</h3>
+                            <h3 class="tm-article-subtitle">Code</h3>
 
 <pre><code>&lt;div data-uk-button-radio&gt;
     &lt;button class="uk-button"&gt;...&lt;/button&gt;
@@ -337,11 +339,11 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="button-with-dropdowns"><a href="#button-with-dropdowns" class="uk-link-reset">Button with dropdowns</a></h2>
+                            <h2 id="button-with-dropdowns"><a href="#button-with-dropdowns" class="uk-link-reset">带下拉菜单的按钮</a></h2>
 
-                            <p>A button can be used to trigger a dropdown menu from the <a href="dropdown.html">Dropdown component</a>. Just add the <code>.uk-button-dropdown</code> class and the <code>data-uk-dropdown</code> attribute to a <code>&lt;div&gt;</code> element that contains the button and the dropdown itself.</p>
+                            <p>按钮可以用来触发<a href="dropdown.html">下拉菜单组件</a>中的下拉菜单。在包含按钮和下拉菜单的<code>&lt;div&gt;</code>元素中添加<code>.uk-button-dropdown</code>类和<code>data-uk-dropdown</code>属性就可实现这一功能。</p>
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div class="uk-margin" data-uk-margin>
 
@@ -422,15 +424,15 @@
 
                             </div>
 
-                            <h3 class="tm-article-subtitle">Markup</h3>
+                            <h3 class="tm-article-subtitle">Code</h3>
 
-<pre><code>&lt;!-- This is the container enabling the JavaScript --&gt;
+<pre><code>&lt;!-- 关联JavaScript的容器 --&gt;
 &lt;div class="uk-button-dropdown" data-uk-dropdown&gt;
 
-    &lt;!-- This is the button toggling the dropdown --&gt;
+    &lt;!-- 触发下拉菜单的按钮 --&gt;
     &lt;button class="uk-button"&gt;...&lt;/button&gt;
 
-    &lt;!-- This is the dropdown --&gt;
+    &lt;!-- 下拉菜单 --&gt;
     &lt;div class="uk-dropdown uk-dropdown-small"&gt;
         &lt;ul class="uk-nav uk-nav-dropdown"&gt;
             &lt;li&gt;&lt;a href=""&gt;...&lt;/a&gt;&lt;/li&gt;
@@ -442,11 +444,11 @@
 
                             <hr class="uk-article-divider">
 
-                            <h3>Button group with dropdowns</h3>
+                            <h3>带下拉菜单的按钮组</h3>
 
-                            <p>Use button groups to split buttons into a standard action on the left and a dropdown toggle on the right. Just wrap a <code>&lt;div&gt;</code> element around the button and the dropdown and add the <code>data-uk-dropdown="{mode:'click'}"</code> attribute. Of course, a dropdown can also be applied to a button within a button group.</p>
+                            <p>使用按钮组将按钮分成左边是标准行为的按钮和右边是带下拉菜单的按钮，仅需将他们用一个<code>&lt;div&gt;</code>元素包裹，然后在<code>&lt;div&gt;</code>中添加<code>data-uk-dropdown="{mode:'click'}"</code>属性即可。 当然，下拉菜单也可以用于按钮组中的一个按钮。</p>
 
-                            <h4 class="tm-article-subtitle">Example</h4>
+                            <h4 class="tm-article-subtitle">示例</h4>
 
                             <div class="uk-margin" data-uk-margin>
                                 <div class="uk-button-group">
@@ -540,20 +542,20 @@
                                 </div>
                             </div>
 
-                            <h4 class="tm-article-subtitle">Markup</h4>
+                            <h4 class="tm-article-subtitle">Code</h4>
 
 <pre><code>&lt;div class="uk-button-group"&gt;
 
-    &lt;!-- This is a button --&gt;
+    &lt;!-- 标准按钮 --&gt;
     &lt;button class="uk-button"&gt;...&lt;/button&gt;
 
-    &lt;!-- This is the container enabling the JavaScript --&gt;
+    &lt;!-- 关联JavaScript的容器 --&gt;
     &lt;div data-uk-dropdown="{mode:'click'}"&gt;
 
-        &lt;!-- This is the button toggling the dropdown --&gt;
+        &lt;!-- 触发下拉菜单的按钮 --&gt;
         &lt;a href="" class="uk-button"&gt;...&lt;/a&gt;
 
-        &lt;!-- This is the dropdown --&gt;
+        &lt;!-- 下拉菜单 --&gt;
         &lt;div class="uk-dropdown uk-dropdown-small"&gt;
             &lt;ul class="uk-nav uk-nav-dropdown"&gt;
                 &lt;li&gt;&lt;a href=""&gt;...&lt;/a&gt;&lt;/li&gt;
