@@ -4,9 +4,6 @@ UIkit 2.21.0 中文文档翻译项目
 
 ##TODO  
   
-###首页
-  
-index.html--------------------------------------------@yunye  
 
 ###开始使用
   
@@ -46,12 +43,9 @@ pagination.html
 tab.html	 
 thumbnav.html	 
   
-list.html---------------------------------------------@Ccc  
 description-list.html---------------------------------@Ccc  
 table.html--------------------------------------------@Ccc  
-form.html---------------------------------------------@Ccc  
   
-button.html-----------------------------@李凯  
 icon.html-----------------------------@李凯  	 
 close.html	 
 badge.html	 
@@ -122,7 +116,10 @@ layouts_post.html
   
 ##DONE  
   
-null
+index.html @yunye  
+button.html @李凯  
+list.html @Ccc  
+form.html @Ccc  
 
 ## Browser Support
 
