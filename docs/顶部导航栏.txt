@@ -1,0 +1,10 @@
+<ul class="uk-navbar-nav uk-hidden-small">
+                    <li><a href="documentation_get-started.html">开始使用</a></li>
+                    <li><a href="core.html">核心组件</a></li>
+                    <li><a href="components.html">附加组件</a></li>
+                    <li><a href="customizer.html">定制工具</a></li>
+                    <li><a href="../showcase/index.html">案例展示</a></li>
+                    <li><a href="tutorials.html">视频教程</a></li>
+                </ul>
+
+为li元素添加 class="uk-active" 呈现选中状态

@@ -1,0 +1,128 @@
+<ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{multiple:true}">
+                    <li class="uk-parent"><a href="#">UIkit 中文文档</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="documentation_get-started.html">开始使用</a></li>
+                            <li><a href="documentation_how-to-customize.html">如何定制</a></li>
+                            <li><a href="documentation_layouts.html">布局示例</a></li>
+                            <li><a href="core.html">核心组件</a></li>
+                            <li><a href="components.html">附加组件</a></li>
+                            <li><a href="documentation_project-structure.html">项目结构</a></li>
+                            <li><a href="documentation_less-sass.html">Less &amp; Sass 文件</a></li>
+                            <li><a href="documentation_create-a-theme.html">创建主题</a></li>
+                            <li><a href="documentation_create-a-style.html">创建样式</a></li>
+                            <li><a href="documentation_customizer-json.html">Customizer.json</a></li>
+                            <li><a href="documentation_javascript.html">JavaScript</a></li>
+                            <li><a href="documentation_custom-prefix.html">自定义前缀</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-header">Core</li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-wrench"></i> 默认</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="base.html">基础</a></li>
+                            <li><a href="print.html">打印</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i>布局类组件</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="grid.html">网格</a></li>
+                            <li><a href="panel.html">面板</a></li>
+                            <li><a href="block.html">块</a></li>
+                            <li><a href="article.html">文章</a></li>
+                            <li><a href="comment.html">评论</a></li>
+                            <li><a href="utility.html">效果</a></li>
+                            <li><a href="flex.html">Flex</a></li>
+                            <li><a href="cover.html">覆盖</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i>导航类组件</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="nav.html">导航菜单</a></li>
+                            <li><a href="navbar.html">导航栏</a></li>
+                            <li><a href="subnav.html">二级导航</a></li>
+                            <li><a href="breadcrumb.html">面包屑</a></li>
+                            <li><a href="pagination.html">分页</a></li>
+                            <li><a href="tab.html">选项卡</a></li>
+                            <li><a href="thumbnav.html">缩略图导航</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-check"></i>页面元素</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="list.html">列表</a></li>
+                            <li><a href="description-list.html">描述列表</a></li>
+                            <li><a href="table.html">表格</a></li>
+                            <li><a href="form.html">表单</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> 常用组件</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="button.html">按钮</a></li>
+                            <li><a href="icon.html">图标</a></li>
+                            <li><a href="close.html">关闭</a></li>
+                            <li><a href="badge.html">徽章</a></li>
+                            <li><a href="alert.html">提示框</a></li>
+                            <li><a href="thumbnail.html">缩略图</a></li>
+                            <li><a href="overlay.html">遮罩</a></li>
+                            <li><a href="text.html">文本</a></li>
+                            <li><a href="animation.html">动画</a></li>
+                            <li><a href="contrast.html">对比度</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i>JavaScript组件</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="dropdown.html">下拉菜单</a></li>
+                            <li><a href="modal.html">模态对话框</a></li>
+                            <li><a href="offcanvas.html">抽屉</a></li>
+                            <li><a href="switcher.html">切换器</a></li>
+                            <li><a href="toggle.html">拨动</a></li>
+                            <li><a href="scrollspy.html">滚动监听</a></li>
+                            <li><a href="smooth-scroll.html">平滑滚动</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-header">附加组件</li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i>布局类组件</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="grid-js.html">动态网格</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i>导航类组件</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="dotnav.html">圆点导航</a></li>
+                            <li><a href="slidenav.html">滑动导航</a></li>
+                            <li><a href="pagination-js.html">动态分页</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> 常用组件</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="form-advanced.html">高级表单</a></li>
+                            <li><a href="form-file.html">文件表单</a></li>
+                            <li><a href="form-password.html">密码表单</a></li>
+                            <li><a href="form-select.html">选择表单</a></li>
+                            <li><a href="placeholder.html">占位符</a></li>
+                            <li><a href="progress.html">进度条</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i>JavaScript组件</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="lightbox.html">灯箱</a></li>
+                            <li><a href="autocomplete.html">自动完成</a></li>
+                            <li><a href="datepicker.html">日期选择器</a></li>
+                            <li><a href="htmleditor.html">HTML 编辑器</a></li>
+                            <li><a href="slider.html">滚动条</a></li>
+                            <li><a href="slideset.html">滑块集</a></li>
+                            <li><a href="slideshow.html">幻灯片</a></li>
+                            <li><a href="parallax.html">视差</a></li>
+                            <li><a href="accordion.html">手风琴</a></li>
+                            <li><a href="notify.html">通知</a></li>
+                            <li><a href="search.html">搜索</a></li>
+                            <li><a href="nestable.html">可嵌套</a></li>
+                            <li><a href="sortable.html">可排序</a></li>
+                            <li><a href="sticky.html">附着</a></li>
+                            <li><a href="timepicker.html">时间选择器</a></li>
+                            <li><a href="tooltip.html">工具提示</a></li>
+                            <li><a href="upload.html">上传</a></li>
+                        </ul>
+                    </li>
+                    <li class="uk-nav-divider"></li>
+                    <li><a href="../showcase/index.html">案例展示</a></li>
+                    <li><a href="tutorials.html">视频教程</a></li>
+                </ul>
