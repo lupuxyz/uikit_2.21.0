@@ -116,10 +116,10 @@ layouts_post.html
   
 ##DONE  
   
-index.html @yunye  
-button.html @李凯  
-list.html @Ccc  
-form.html @Ccc  
+index.html @yunye latest  V
+button.html @李凯 2.21.0  
+list.html @Ccc 2.21.0  
+form.html @Ccc 2.21.0  
 
 ## Browser Support
 
