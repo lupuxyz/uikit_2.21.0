@@ -4,7 +4,11 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Grid component - UIkit documentation</title>
+        <title>网格组件 - UIkit 中文文档</title>
+        <meta name="description" content="UIKit中的网格系统遵循移动优先的方式并可容纳多达10个网格列，它使用网格内预定义的类对每个单元格的列宽进行了定义，本文档针对UIKit网格系统进行了详细的介绍。">
+        <meta name="author" content="UIkit中文网">
+         
+<meta name="keywords" content="UIKit网格系统,栅格系统,响应式宽度,嵌套网格,Grid,flex">
         <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
         <link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon.png">
         <link id="data-uikit-theme" rel="stylesheet" href="css/uikit.docs.min.css">
@@ -24,12 +28,12 @@
                 <a class="uk-navbar-brand uk-hidden-small" href="../index.html"><img class="uk-margin uk-margin-remove" src="images/logo_uikit.svg" width="90" height="30" title="UIkit" alt="UIkit"></a>
 
                 <ul class="uk-navbar-nav uk-hidden-small">
-                    <li><a href="documentation_get-started.html">Get Started</a></li>
-                    <li class="uk-active"><a href="core.html">Core</a></li>
-                    <li><a href="components.html">Components</a></li>
-                    <li><a href="customizer.html">Customizer</a></li>
-                    <li><a href="../showcase/index.html">Showcase</a></li>
-                    <li><a href="tutorials.html">Tutorials</a></li>
+                    <li><a href="documentation_get-started.html">开始使用</a></li>
+                    <li class="uk-active"><a href="core.html">核心组件</a></li>
+                    <li><a href="components.html">附加组件</a></li>
+                    <li><a href="customizer.html">定制工具</a></li>
+                    <li><a href="../showcase/index.html">案例展示</a></li>
+                    <li><a href="tutorials.html">视频教程</a></li>
                 </ul>
 
                 <a href="#tm-offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
@@ -47,55 +51,55 @@
 
                         <ul class="tm-nav uk-nav" data-uk-nav>
 
-                            <li class="uk-nav-header">Defaults</li>
-                            <li><a href="base.html">Base</a></li>
-                            <li><a href="print.html">Print</a></li>
+                            <li class="uk-nav-header">默认</li>
+                            <li><a href="base.html">基础</a></li>
+                            <li><a href="print.html">打印</a></li>
 
-                            <li class="uk-nav-header">Layout</li>
-                            <li class="uk-active"><a href="grid.html">Grid</a></li>
-                            <li><a href="panel.html">Panel</a></li>
-                            <li><a href="block.html">Block</a></li>
-                            <li><a href="article.html">Article</a></li>
-                            <li><a href="comment.html">Comment</a></li>
-                            <li><a href="utility.html">Utility</a></li>
+                            <li class="uk-nav-header">布局类组件</li>
+                            <li class="uk-active"><a href="grid.html">网格</a></li>
+                            <li><a href="panel.html">面板</a></li>
+                            <li><a href="block.html">块</a></li>
+                            <li><a href="article.html">文章</a></li>
+                            <li><a href="comment.html">评论</a></li>
+                            <li><a href="utility.html">效果</a></li>
                             <li><a href="flex.html">Flex</a></li>
-                            <li><a href="cover.html">Cover</a></li>
+                            <li><a href="cover.html">覆盖</a></li>
 
-                            <li class="uk-nav-header">Navigations</li>
-                            <li><a href="nav.html">Nav</a></li>
-                            <li><a href="navbar.html">Navbar</a></li>
-                            <li><a href="subnav.html">Subnav</a></li>
-                            <li><a href="breadcrumb.html">Breadcrumb</a></li>
-                            <li><a href="pagination.html">Pagination</a></li>
-                            <li><a href="tab.html">Tab</a></li>
+                            <li class="uk-nav-header">导航类组件</li>
+                            <li><a href="nav.html">导航菜单</a></li>
+                            <li><a href="navbar.html">导航栏</a></li>
+                            <li><a href="subnav.html">二级导航</a></li>
+                            <li><a href="breadcrumb.html">面包屑</a></li>
+                            <li><a href="pagination.html">分页</a></li>
+                            <li><a href="tab.html">选项卡</a></li>
                             <li><a href="thumbnav.html">Thumbnav</a></li>
 
-                            <li class="uk-nav-header">Elements</li>
-                            <li><a href="list.html">List</a></li>
-                            <li><a href="description-list.html">Description list</a></li>
-                            <li><a href="table.html">Table</a></li>
-                            <li><a href="form.html">Form</a></li>
+                            <li class="uk-nav-header">页面元素</li>
+                            <li><a href="list.html">列表</a></li>
+                            <li><a href="description-list.html">描述列表</a></li>
+                            <li><a href="table.html">表格</a></li>
+                            <li><a href="form.html">表单</a></li>
 
-                            <li class="uk-nav-header">Common</li>
-                            <li><a href="button.html">Button</a></li>
-                            <li><a href="icon.html">Icon</a></li>
-                            <li><a href="close.html">Close</a></li>
-                            <li><a href="badge.html">Badge</a></li>
-                            <li><a href="alert.html">Alert</a></li>
-                            <li><a href="thumbnail.html">Thumbnail</a></li>
-                            <li><a href="overlay.html">Overlay</a></li>
-                            <li><a href="text.html">Text</a></li>
-                            <li><a href="animation.html">Animation</a></li>
-                            <li><a href="contrast.html">Contrast</a></li>
+                            <li class="uk-nav-header">常用组件</li>
+                            <li><a href="button.html">按钮</a></li>
+                            <li><a href="icon.html">图标</a></li>
+                            <li><a href="close.html">关闭</a></li>
+                            <li><a href="badge.html">徽章</a></li>
+                            <li><a href="alert.html">提示框</a></li>
+                            <li><a href="thumbnail.html">缩略图</a></li>
+                            <li><a href="overlay.html">遮罩</a></li>
+                            <li><a href="text.html">文本</a></li>
+                            <li><a href="animation.html">动画</a></li>
+                            <li><a href="contrast.html">对比</a></li>
 
-                            <li class="uk-nav-header">JavaScript</li>
-                            <li><a href="dropdown.html">Dropdown</a></li>
-                            <li><a href="modal.html">Modal</a></li>
-                            <li><a href="offcanvas.html">Off-canvas</a></li>
-                            <li><a href="switcher.html">Switcher</a></li>
-                            <li><a href="toggle.html">Toggle</a></li>
-                            <li><a href="scrollspy.html">Scrollspy</a></li>
-                            <li><a href="smooth-scroll.html">Smooth scroll</a></li>
+                            <li class="uk-nav-header">JavaScript组件</li>
+                            <li><a href="dropdown.html">下拉菜单</a></li>
+                            <li><a href="modal.html">模态对话框</a></li>
+                            <li><a href="offcanvas.html">抽屉</a></li>
+                            <li><a href="switcher.html">切换器</a></li>
+                            <li><a href="toggle.html">拨动器</a></li>
+                            <li><a href="scrollspy.html">滚动监听</a></li>
+                            <li><a href="smooth-scroll.html">平滑滚动</a></li>
 
                         </ul>
 
@@ -104,64 +108,64 @@
 
                         <article class="uk-article">
 
-                            <h1 class="uk-article-title">Grid</h1>
+                            <h1 class="uk-article-title">网格</h1>
 
-                            <p class="uk-article-lead">Create a fully responsive, fluid and nestable grid layout.</p>
+                            <p class="uk-article-lead">创建一个完全响应式并可以嵌套的流动网格布局。</p>
 
-                            <p>The grid system of UIkit follows the mobile-first approach and accomodates up to 10 grid columns. It uses units with predefined classes inside each grid, which define the column width. It is also possible to combine the grid with classes from the <a href="flex.html">Flex component</a>, although it works only in modern browsers.</p>
+                            <p>UIKit中的网格系统遵循移动优先的方式并且最多可容纳10个网格列。它使用网格内预定义的类对每个单元格的列宽进行了定义。另外，还可以把网格与 <a href="flex.html">Flex 组件</a> 中的类组合使用，虽然它只能在现代浏览器中正常运行。</p>
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="usage"><a href="#usage" class="uk-link-reset">Usage</a></h2>
+                            <h2 id="usage"><a href="#usage" class="uk-link-reset">用法</a></h2>
 
-                            <p>To create the grid container, add the <code>.uk-grid</code> class to a parent element. Add one of the <code>.uk-width-*</code> classes to child elements to determine, how the units shall be sized. The grid supports 1, 2, 3, 4, 5, 6 and 10 unit divisions. This table gives you an overview of the <code>uk-width-*</code> classes that can be applied to units.</code></p>
+                            <p>向一个父元素添加 <code>.uk-grid</code> 类来创建网格容器。对子元素添加一个 <code>.uk-width-*</code> 类来限定单元格的宽度。网格支持1、2、3、4、5、6和10个单元划分。下面的列表为你提供了可以应用到单元的 <code>uk-width-*</code> 类的概述。</code></p>
 
                             <div class="uk-overflow-container">
                                 <table class="uk-table uk-text-nowrap">
                                     <thead>
                                         <tr>
                                             <th>Class</th>
-                                            <th>Description</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><code>.uk-width-1-1</code></td>
-                                            <td>Fills 100% of the available width.</td>
+                                            <td>填满可见宽度的100％。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-width-1-2</code></td>
-                                            <td>Divides the grid into halves.</td>
+                                            <td>把网格等分为两半。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-width-1-3</code> to <code>.uk-width-2-3</code></td>
-                                            <td>Divides the grid into thirds.</td>
+                                            <td>将网格划分成三分之一。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-width-1-4</code> to <code>.uk-width-3-4</code></td>
-                                            <td>Divides the grid into fourths.</td>
+                                            <td>将网格划分成四分之一。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-width-1-5</code> to <code>.uk-width-4-5</code></td>
-                                            <td>Divides the grid into fifths.</td>
+                                            <td>将网格划分成五分之一。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-width-1-6</code> to <code>.uk-width-5-6</code></td>
-                                            <td>Divides the grid into sixths.</td>
+                                            <td>将网格划分成六分之一。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-width-1-10</code> to <code>.uk-width-9-10</code></td>
-                                            <td>Divides the grid into tenths.</td>
+                                            <td>将网格划分成十分之一。</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
 
-                            <p>We built an intentional redundancy into each set of unit classes, so that for instance the <code>.uk-width-5-10</code> class will work just as well as <code>.uk-width-1-2</code>.</p>
+                            <p>我们特意为每组单元建立了一种冗余，所以在实际应用时，<code>.uk-width-5-10</code> 类与 <code>.uk-width-1-2</code> 类的实际效果都是一样的。</p>
 
                             <h3 class="tm-article-subtitle">Example</h3>
 
-                            <p>Take a closer look at the following grid example, which gives you a great overwiew of all basic <code>.uk-width-*</code> classes.</p>
+                            <p>仔细看看下面网格的例子，这可以使你了解所有 <code>.uk-width-*</code> 类的基本使用方法。</p>
 
                             <div class="tm-grid-truncate uk-text-center">
 
@@ -183,11 +187,11 @@
 
                             </div>
 
-                            <p><span class="uk-badge">NOTE</span> The grid has no style related CSS. In our example we used panels from the <a href="panel.html">Panel component</a>.</p>
+                            <p><span class="uk-badge">注意</span> 网格并没有相关联的CSS样式。在示例中，我们使用了 <a href="panel.html">面板组件</a>。</p>
 
                             <h3 class="tm-article-subtitle">Markup</h3>
 
-                            <p>Here is a simple code example of how the default grid with 2 columns would look like:</p>
+                            <p>下面是关于如何使用默认的两列网格代码简单示例：</p>
 
 <pre><code>&lt;div class="uk-grid"&gt;
     &lt;div class="uk-width-1-2"&gt;...&lt;/div&gt;
@@ -196,40 +200,40 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="responsive-width"><a href="#responsive-width" class="uk-link-reset">Responsive width</a></h2>
+                            <h2 id="responsive-width"><a href="#responsive-width" class="uk-link-reset">响应式宽度</a></h2>
 
-                            <p>UIkit provides a number of very useful responsive widths classes. Basicall they work just like the usual width classes, except they are prefixed, so that they only come to effect at certain breakpoints. These classes can be combined with the visibility classes from the <a href="utility.html">Utility component</a>. This is great to adjust your layout and content for different device sizes.</p>
+                            <p>UIKit中提供了一些非常有用的响应式宽度的类。基本上它们的使用方法就像通常宽度的类一样，但是它们带有前缀，这样它们只在特定的断点来产生效果。这些类可以结合 <a href="utility.html">效果组件</a> 中的可见性类来使用。这对于调整不同尺寸设备的布局和内容是非常重要的。</p>
 
                             <div class="uk-overflow-container">
                                 <table class="uk-table uk-text-nowrap">
                                     <thead>
                                         <tr>
                                             <th>Class</th>
-                                            <th>Description</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><code>.uk-width-*</code></td>
-                                            <td>Affects all device widths, grid columns stay side by side.</td>
+                                            <td>对于任何宽度的设备，网格都保持列并排。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-width-small-*</code></td>
-                                            <td>Affects device widths of <em>480px</em> and higher. Grid columns will stack on smaller sizes.</td>
+                                            <td>影响宽度在 <em>480px</em> 以上的设备。网格列将在较小的视口中堆叠。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-width-medium-*</code></td>
-                                            <td>Affects device widths of <em>768px</em> and higher. Grid columns will stack on smaller sizes.</td>
+                                            <td>影响宽度在 <em>768px</em> 以上的设备。网格列将在较小的视口中堆叠。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-width-large-*</code></td>
-                                            <td>Affects device widths of <em>960px</em> and higher. Grid columns will stack on smaller sizes.</td>
+                                            <td>影响宽度在 <em>960px</em> 以上的设备。网格列将在较小的视口中堆叠。</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
 
-                            <p><span class="uk-badge uk-badge-danger">IMPORTANT</span> To create a margin between stacking grid columns, just add the <code>data-uk-grid-margin</code> attribute.</p>
+                            <p><span class="uk-badge uk-badge-danger">重要</span> 若要设置网格堆叠列上下间的边距，只需添加 <code>data-uk-grid-margin</code> 属性。</p>
 
                             <h3 class="tm-article-subtitle">Example</h3>
 
@@ -255,9 +259,9 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="grid-gutter"><a href="#grid-gutter" class="uk-link-reset">Grid gutter</a></h2>
+                            <h2 id="grid-gutter"><a href="#grid-gutter" class="uk-link-reset">网格排水沟/Grid gutter</a></h2>
 
-                            <p>Grids automatically create a horizontal gutter between columns and a vertical one between two succeeding grids. By default, the grid gutter is wider on large screens.</p>
+                            <p>好吧，其实是网格之间的间隔。网格会自动在列之间创建一个水平间距，以及在连续的两个网格间创建一个垂直方向的间隔。默认情况下，网格间隔在大屏幕上看起来会比较宽。</p>
 
                             <h3 class="tm-article-subtitle">Example</h3>
 
@@ -269,9 +273,9 @@
 
                             <hr class="uk-article-divider">
 
-                            <h3>Medium gutter</h3>
+                            <h3>中等排水沟/Medium gutter</h3>
 
-                            <p>To apply a medium sized gutter between grid columns, just add the <code>.uk-grid-medium</code> class.</p>
+                            <p>在网格之间应用中等的间隔，只需要添加 <code>.uk-grid-medium</code> 类。</p>
 
                             <h4 class="tm-article-subtitle">Example</h4>
 
@@ -283,9 +287,9 @@
 
                             <hr class="uk-article-divider">
 
-                            <h3>Small gutter</h3>
+                            <h3>小点的排水沟/Small gutter</h3>
 
-                            <p>To apply a smaller gutter between grid columns, just add the <code>.uk-grid-small</code> class.</p>
+                            <p>在网格之间应用较小的间隔，只需要添加 <code>.uk-grid-small</code> 类。</p>
 
                             <h4 class="tm-article-subtitle">Example</h4>
 
@@ -297,9 +301,9 @@
 
                             <hr class="uk-article-divider">
 
-                            <h3>Collapse gutter</h3>
+                            <h3>消除排水沟/Collapse gutter</h3>
 
-                            <p>To remove the gutter entirely, just add the <code>.uk-grid-collapse</code> class.</p>
+                            <p>完全地去掉间隔，只需要添加 <code>.uk-grid-collapse</code> 类。</p>
 
                             <h4 class="tm-article-subtitle">Example</h4>
 
@@ -311,9 +315,9 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="nested-grid"><a href="#nested-grid" class="uk-link-reset">Nested grid</a></h2>
+                            <h2 id="nested-grid"><a href="#nested-grid" class="uk-link-reset">网格的嵌套</a></h2>
 
-                            <p>You can easily extend your grid layout with nested grids.</p>
+                            <p>使用嵌套网格你可以轻松地扩展你的网格布局。</p>
 
                             <h3 class="tm-article-subtitle">Example</h3>
 
@@ -345,9 +349,9 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="center-grid"><a href="#center-grid" class="uk-link-reset">Center grid</a></h2>
+                            <h2 id="center-grid"><a href="#center-grid" class="uk-link-reset">居中网格</a></h2>
 
-                            <p>Add the <code>.uk-container-center</code> class from the <a href="utility.html">Utility component</a> to center a grid column.</p>
+                            <p>添加 <a href="utility.html">效果组件</a> 中的 <code>.uk-container-center</code> 类来让一个网格居中显示。</p>
 
                             <h4 class="tm-article-subtitle">Example</h4>
 
@@ -355,9 +359,9 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="grid-divider"><a href="#grid-divider" class="uk-link-reset">Grid divider</a></h2>
+                            <h2 id="grid-divider"><a href="#grid-divider" class="uk-link-reset">网格分隔线</a></h2>
 
-                            <p>Add the <code>.uk-grid-divider</code> class to separate grid columns with lines. To separate grids with a horizontal line, just add the class to a <code>&lt;hr&gt;</code> or <code>&lt;div&gt;</code> element.</p>
+                            <p>添加 <code>.uk-grid-divider</code> 类用线条分隔网格列。要使用水平线分隔网格，只需在 <code>&lt;hr&gt;</code> 或 <code>&lt;div&gt;</code> 元素添加这个类。</p>
 
                             <h3 class="tm-article-subtitle">Example</h3>
 
@@ -379,17 +383,17 @@
 &lt;hr class="uk-grid-divider"&gt;
 &lt;div class="uk-grid uk-grid-divider"&gt;...&lt;/div&gt;</code></pre>
 
-                            <p><span class="uk-badge">NOTE</span> The horizontal divider can not be applied to grids with any of the <code>uk-push-*</code> or <code>uk-pull-*</code> classes.</p>
+                            <p><span class="uk-badge">注意</span> 水平分隔线不能用在含有 <code>uk-push-*</code> 类或 <code>uk-pull-*</code> 类的网格中。</p>
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="source-ordering"><a href="#source-ordering" class="uk-link-reset">Source ordering</a></h2>
+                            <h2 id="source-ordering"><a href="#source-ordering" class="uk-link-reset">源码排序</a></h2>
 
-                            <p>You can change the display order of the columns to keep a specific column order in the source code. Add one of the <code>.uk-push-*</code> classes to move the column to the right and add one of the <code>.uk-pull-*</code> classes to move a column to the left. This allows you for example to flip the columns' display order for wider viewports. The classes can also be used to offset columns, creating additional space between them.</p>
+                            <p>可以更改列的显示顺序，使其在源代码中保持一个特定的列顺序。添加 <code>.uk-push-*</code> 类，向右移动列。添加 <code>.uk-pull-*</code> 类，向左移动列。这可以使你进行类似翻转移动设备或改变窗口宽度时改变列的显示顺序。这些类还可以用于偏移列，在列之间建立额外的空隙。</p>
 
-                            <p>Source ordering is useful for SEO and responsive design, because in narrow viewports the grid will be displayed according to the source order of the markup.</p>
+                            <p>源码排序对SEO和响应式设计是非常有用的，因为在狭窄的视口中网格会根据标签的源代码顺序来显示。</p>
 
-                            <p><span class="uk-badge">NOTE</span> This feature only works in combination with one of the <code>.uk-width-medium-*</code> classes.</p>
+                            <p><span class="uk-badge">注意</span> 此功能只能结合 <code>.uk-width-medium-*</code> 类来使用。</p>
 
                             <h3 class="tm-article-subtitle">Example</h3>
 
@@ -412,9 +416,9 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="match-column-heights"><a href="#match-column-heights" class="uk-link-reset">Match column heights</a></h2>
+                            <h2 id="match-column-heights"><a href="#match-column-heights" class="uk-link-reset">匹配列的高度</a></h2>
 
-                            <p>The Grid component uses Flexbox, so the height of grid columns is matched automatically. To achieve the same effect in older browsers that don't support Flexbox, just add the <code>data-uk-grid-match</code> attribute to your grid. If your grid wraps into multiple rows, only grid columns within the same row are matched. To match grid columns accross all rows just use <code>data-uk-grid-match="{row: false}"</code>.<p>
+                            <p>要匹配网格列的高度，只需要在你的网格添加 <code>data-uk-grid-match</code> 属性。如果你的网格包含多个row，只有同一个row中的网格列会被匹配。只需要使用 <code>data-uk-grid-match="{row: false}"</code> 属性就能跨越row的隔阂来匹配网格列的高度。<p>
 
                             <h3 class="tm-article-subtitle">Example</h3>
 
@@ -428,13 +432,13 @@
 
 <pre><code>&lt;div class="uk-grid" data-uk-grid-match&gt;...&lt;/div&gt;</code></pre>
 
-                            <p><span class="uk-badge">NOTE</span> If grid columns extend to a width of 100%, their heights will no longer be matched. This makes sense, for example, if they stack vertically in narrower viewports.</p>
+                            <p><span class="uk-badge">注意</span> 如果网格列的宽度延伸到100%，它们的高度将不再匹配。这样做是有道理的，比如说，当它们在一个较窄的视口中堆叠时。</p>
 
                             <hr class="uk-article-divider">
 
-                            <h3>Match height of panels</h3>
+                            <h3>匹配面板的高度</h3>
 
-                            <p>If you want to match the heights of panels in a grid, just add the <code>.uk-grid-match</code> class. When using the data attribute, you need to add the <code>{target:'.uk-panel'}</code> selector.</p>
+                            <p>如果想要匹配一个网格中多个面板的高度，只需要添加 <code>.uk-grid-match</code> 类。在使用data属性时，必须添加 <code>{target:'.uk-panel'}</code> 选择器。</p>
 
                             <h3 class="tm-article-subtitle">Example</h3>
 
@@ -460,9 +464,9 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="wrap-multiple-rows"><a href="#wrap-multiple-rows" class="uk-link-reset">Wrap multiple rows</a></h2>
+                            <h2 id="wrap-multiple-rows"><a href="#wrap-multiple-rows" class="uk-link-reset">包装多个行（row）</a></h2>
 
-                            <p>You can also create a grid with as many columns as you want, which automatically break into the next line. Just add the <code>data-uk-grid-margin</code> attribute to create a margin between the grid rows. Typically this layout is built using a <code>&lt;ul&gt;</code> element.</p>
+                            <p>你也可以创建一个网格，使其包含任意多个列，这些列会自动地换到下一行。只需添加 <code>data-uk-grid-margin</code> 属性，就能创建网格行（row）之间的margin。通常这样的布局使用了 <code>&lt;ul&gt;</code> 元素。</p>
 
                             <h4 class="tm-article-subtitle">Example</h4>
 
@@ -475,7 +479,7 @@
                                 <li class="uk-width-medium-1-3"><div class="uk-panel uk-panel-box">Box</div></li>
                             </ul>
 
-                            <p><span class="uk-badge">NOTE</span> You can also apply a custom width to your grid columns. Just add the <code>.uk-width</code> class and use an inline style to define the width. This example uses fixed pixel values for the widths as you would do with images.</p>
+                            <p><span class="uk-badge">注意</span> 你也可以对网格列的宽度进行自定义。只需添加 <code>.uk-width</code> 类，并使用内联样式定义宽度。下面的例子对宽度使用了固定的像素值，对于图片你也可以这样做。</p>
 
                             <ul class="uk-grid uk-text-center" data-uk-grid-margin>
                                 <li class="uk-width" style="width: 100px;"><div class="uk-panel uk-panel-box">Box</div></li>
@@ -492,11 +496,11 @@
 
 <pre><code>&lt;ul class="uk-grid" data-uk-grid-margin&gt;
 
-    &lt;!-- These elements have a width in percent --&gt;
+    &lt;!-- 这些元素使用百分比宽度 --&gt;
     &lt;li class="uk-width-medium-1-5"&gt;...&lt;/li&gt;
     &lt;li class="uk-width-medium-3-10"&gt;...&lt;/li&gt;
 
-    &lt;!-- These elements have a width in pixel --&gt;
+    &lt;!-- 这些元素使用像素值宽度 --&gt;
     &lt;li class="uk-width" style="width: 100px;"&gt;...&lt;/li&gt;
     &lt;li class="uk-width" style="width: 150px;"&gt;...&lt;/li&gt;
 
@@ -504,42 +508,42 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="even-grid-columns"><a href="#even-grid-columns" class="uk-link-reset">Even grid columns</a></h2>
+                            <h2 id="even-grid-columns"><a href="#even-grid-columns" class="uk-link-reset">均匀的网格列</a></h2>
 
-                            <p>To create a grid whose child elements' widths are evenly split, you don't have to apply the same class to each list item within the grid. Just add one of the <code>.uk-grid-width-*</code> classes to the grid itself.</p>
+                            <p>要创建一个子元素的宽度都是均匀分割的网格，你不必为网格中的每个列表元素里添加同样的类。只需要添加一个 <code>.uk-grid-width-*</code> 类到网格本身即可。</p>
 
                             <div class="uk-overflow-container">
                                 <table class="uk-table uk-text-nowrap">
                                     <thead>
                                         <tr>
                                             <th>Class</th>
-                                            <th>Description</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><code>.uk-grid-width-1-2</code></td>
-                                            <td>Divides the grid into halves.</td>
+                                            <td>将网格均匀分为两份</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-grid-width-1-3</code></td>
-                                            <td>Divides the grid into thirds.</td>
+                                            <td>将网格均匀分为三份</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-grid-width-1-4</code></td>
-                                            <td>Divides the grid into fourths.</td>
+                                            <td>将网格均匀分为四份</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-grid-width-1-5</code></td>
-                                            <td>Divides the grid into fifths.</td>
+                                            <td>将网格均匀分为五份</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-grid-width-1-6</code></td>
-                                            <td>Divides the grid into sixths.</td>
+                                            <td>将网格均匀分为六份</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-grid-width-1-10</code></td>
-                                            <td>Divides the grid into tenths.</td>
+                                            <td>将网格均匀分为十份</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -564,38 +568,38 @@
 
                             <hr class="uk-article-divider">
 
-                            <h3>Responsive width</h3>
+                            <h3>响应式宽度</h3>
 
-                            <p>UIkit also provides responsive grid width classes. You can apply these to maintain evenly sized grid columns, regardless of the device width.</p>
+                            <p>UIkit同样提供了网格的响应式宽度类。可以用它保持均匀尺寸的网格列，无论设备宽度如何。</p>
 
                             <div class="uk-overflow-container">
                                 <table class="uk-table uk-text-nowrap">
                                     <thead>
                                         <tr>
                                             <th>Class</th>
-                                            <th>Description</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
                                             <td><code>.uk-grid-width-*</code></td>
-                                            <td>Affects all device widths.</td>
+                                            <td>影响所有设备宽度</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-grid-width-small-*</code></td>
-                                            <td>Affects device widths of <em>480px</em> and higher.</td>
+                                            <td>影响 <em>480px</em> 以上的设备宽度。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-grid-width-medium-*</code></td>
-                                            <td>Affects device widths of <em>768px</em> and higher.</td>
+                                            <td>影响 <em>768px</em> 以上的设备宽度。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-grid-width-large-*</code></td>
-                                            <td>Affects device widths of <em>960px</em> and higher.</td>
+                                            <td>影响 <em>960px</em> 以上的设备宽度。</td>
                                         </tr>
                                         <tr>
                                             <td><code>.uk-grid-width-xlarge-*</code></td>
-                                            <td>Affects device widths of <em>1220px</em> and higher.</td>
+                                            <td>影响 <em>1220px</em> 以上的设备宽度。</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -649,132 +653,132 @@
             <div class="uk-offcanvas-bar">
 
                 <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{multiple:true}">
-                    <li class="uk-parent"><a href="#">Documentation</a>
+                    <li class="uk-parent"><a href="#">UIkit 中文文档</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="documentation_get-started.html">Get started</a></li>
-                            <li><a href="documentation_how-to-customize.html">How to customize</a></li>
-                            <li><a href="documentation_layouts.html">Layout examples</a></li>
-                            <li><a href="core.html">Core</a></li>
-                            <li><a href="components.html">Components</a></li>
-                            <li><a href="documentation_project-structure.html">Project structure</a></li>
-                            <li><a href="documentation_less-sass.html">Less &amp; Sass files</a></li>
-                            <li><a href="documentation_create-a-theme.html">Create a theme</a></li>
-                            <li><a href="documentation_create-a-style.html">Create a style</a></li>
+                            <li><a href="documentation_get-started.html">开始使用</a></li>
+                            <li><a href="documentation_how-to-customize.html">如何定制</a></li>
+                            <li><a href="documentation_layouts.html">布局示例</a></li>
+                            <li><a href="core.html">核心组件</a></li>
+                            <li><a href="components.html">附加组件</a></li>
+                            <li><a href="documentation_project-structure.html">项目结构</a></li>
+                            <li><a href="documentation_less-sass.html">Less &amp; Sass 文件</a></li>
+                            <li><a href="documentation_create-a-theme.html">创建主题</a></li>
+                            <li><a href="documentation_create-a-style.html">创建样式</a></li>
                             <li><a href="documentation_customizer-json.html">Customizer.json</a></li>
                             <li><a href="documentation_javascript.html">JavaScript</a></li>
-                            <li><a href="documentation_custom-prefix.html">Custom prefix</a></li>
+                            <li><a href="documentation_custom-prefix.html">自定义前缀</a></li>
                         </ul>
                     </li>
                     <li class="uk-nav-header">Core</li>
-                    <li class="uk-parent"><a href="#"><i class="uk-icon-wrench"></i> Defaults</a>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-wrench"></i> 默认</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="base.html">Base</a></li>
-                            <li><a href="print.html">Print</a></li>
+                            <li><a href="base.html">基础</a></li>
+                            <li><a href="print.html">打印</a></li>
                         </ul>
                     </li>
-                    <li class="uk-parent uk-active"><a href="#"><i class="uk-icon-th-large"></i> Layout</a>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i>布局类组件</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="grid.html">Grid</a></li>
-                            <li><a href="panel.html">Panel</a></li>
-                            <li><a href="block.html">Block</a></li>
-                            <li><a href="article.html">Article</a></li>
-                            <li><a href="comment.html">Comment</a></li>
-                            <li><a href="utility.html">Utility</a></li>
+                            <li><a href="grid.html">网格</a></li>
+                            <li><a href="panel.html">面板</a></li>
+                            <li><a href="block.html">块</a></li>
+                            <li><a href="article.html">文章</a></li>
+                            <li><a href="comment.html">评论</a></li>
+                            <li><a href="utility.html">效果</a></li>
                             <li><a href="flex.html">Flex</a></li>
-                            <li><a href="cover.html">Cover</a></li>
+                            <li><a href="cover.html">覆盖</a></li>
                         </ul>
                     </li>
-                    <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i> Navigations</a>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i>导航类组件</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="nav.html">Nav</a></li>
-                            <li><a href="navbar.html">Navbar</a></li>
-                            <li><a href="subnav.html">Subnav</a></li>
-                            <li><a href="breadcrumb.html">Breadcrumb</a></li>
-                            <li><a href="pagination.html">Pagination</a></li>
-                            <li><a href="tab.html">Tab</a></li>
-                            <li><a href="thumbnav.html">Thumbnav</a></li>
+                            <li><a href="nav.html">导航菜单</a></li>
+                            <li><a href="navbar.html">导航栏</a></li>
+                            <li><a href="subnav.html">二级导航</a></li>
+                            <li><a href="breadcrumb.html">面包屑</a></li>
+                            <li><a href="pagination.html">分页</a></li>
+                            <li><a href="tab.html">选项卡</a></li>
+                            <li><a href="thumbnav.html">缩略图导航</a></li>
                         </ul>
                     </li>
-                    <li class="uk-parent"><a href="#"><i class="uk-icon-check"></i> Elements</a>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-check"></i>页面元素</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="list.html">List</a></li>
-                            <li><a href="description-list.html">Description list</a></li>
-                            <li><a href="table.html">Table</a></li>
-                            <li><a href="form.html">Form</a></li>
+                            <li><a href="list.html">列表</a></li>
+                            <li><a href="description-list.html">描述列表</a></li>
+                            <li><a href="table.html">表格</a></li>
+                            <li><a href="form.html">表单</a></li>
                         </ul>
                     </li>
-                    <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> Common</a>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> 常用组件</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="button.html">Button</a></li>
-                            <li><a href="icon.html">Icon</a></li>
-                            <li><a href="close.html">Close</a></li>
-                            <li><a href="badge.html">Badge</a></li>
-                            <li><a href="alert.html">Alert</a></li>
-                            <li><a href="thumbnail.html">Thumbnail</a></li>
-                            <li><a href="overlay.html">Overlay</a></li>
-                            <li><a href="text.html">Text</a></li>
-                            <li><a href="animation.html">Animation</a></li>
-                            <li><a href="contrast.html">Contrast</a></li>
+                            <li><a href="button.html">按钮</a></li>
+                            <li><a href="icon.html">图标</a></li>
+                            <li><a href="close.html">关闭</a></li>
+                            <li><a href="badge.html">徽章</a></li>
+                            <li><a href="alert.html">提示框</a></li>
+                            <li><a href="thumbnail.html">缩略图</a></li>
+                            <li><a href="overlay.html">遮罩</a></li>
+                            <li><a href="text.html">文本</a></li>
+                            <li><a href="animation.html">动画</a></li>
+                            <li><a href="contrast.html">对比度</a></li>
                         </ul>
                     </li>
-                    <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i> JavaScript</a>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i>JavaScript组件</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="dropdown.html">Dropdown</a></li>
-                            <li><a href="modal.html">Modal</a></li>
-                            <li><a href="offcanvas.html">Off-canvas</a></li>
-                            <li><a href="switcher.html">Switcher</a></li>
-                            <li><a href="toggle.html">Toggle</a></li>
-                            <li><a href="scrollspy.html">Scrollspy</a></li>
-                            <li><a href="smooth-scroll.html">Smooth scroll</a></li>
+                            <li><a href="dropdown.html">下拉菜单</a></li>
+                            <li><a href="modal.html">模态对话框</a></li>
+                            <li><a href="offcanvas.html">抽屉</a></li>
+                            <li><a href="switcher.html">切换器</a></li>
+                            <li><a href="toggle.html">拨动</a></li>
+                            <li><a href="scrollspy.html">滚动监听</a></li>
+                            <li><a href="smooth-scroll.html">平滑滚动</a></li>
                         </ul>
                     </li>
-                    <li class="uk-nav-header">Components</li>
-                    <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i> Layout</a>
+                    <li class="uk-nav-header">附加组件</li>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-th-large"></i>布局类组件</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="grid-js.html">Dynamic Grid</a></li>
+                            <li><a href="grid-js.html">动态网格</a></li>
                         </ul>
                     </li>
-                    <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i> Navigations</a>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-bars"></i>导航类组件</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="dotnav.html">Dotnav</a></li>
-                            <li><a href="slidenav.html">Slidenav</a></li>
-                            <li><a href="pagination-js.html">Dynamic Pagination</a></li>
+                            <li><a href="dotnav.html">圆点导航</a></li>
+                            <li><a href="slidenav.html">滑动导航</a></li>
+                            <li><a href="pagination-js.html">动态分页</a></li>
                         </ul>
                     </li>
-                    <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> Common</a>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-folder-open"></i> 常用组件</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="form-advanced.html">Form advanced</a></li>
-                            <li><a href="form-file.html">Form file</a></li>
-                            <li><a href="form-password.html">Form password</a></li>
-                            <li><a href="form-select.html">Form select</a></li>
-                            <li><a href="placeholder.html">Placeholder</a></li>
-                            <li><a href="progress.html">Progress</a></li>
+                            <li><a href="form-advanced.html">高级表单</a></li>
+                            <li><a href="form-file.html">文件表单</a></li>
+                            <li><a href="form-password.html">密码表单</a></li>
+                            <li><a href="form-select.html">选择表单</a></li>
+                            <li><a href="placeholder.html">占位符</a></li>
+                            <li><a href="progress.html">进度条</a></li>
                         </ul>
                     </li>
-                    <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i> JavaScript</a>
+                    <li class="uk-parent"><a href="#"><i class="uk-icon-magic"></i>JavaScript组件</a>
                         <ul class="uk-nav-sub">
-                            <li><a href="lightbox.html">Lightbox</a></li>
-                            <li><a href="autocomplete.html">Autocomplete</a></li>
-                            <li><a href="datepicker.html">Datepicker</a></li>
-                            <li><a href="htmleditor.html">HTML editor</a></li>
-                            <li><a href="slider.html">Slider</a></li>
-                            <li><a href="slideset.html">Slideset</a></li>
-                            <li><a href="slideshow.html">Slideshow</a></li>
-                            <li><a href="parallax.html">Parallax</a></li>
-                            <li><a href="accordion.html">Accordion</a></li>
-                            <li><a href="notify.html">Notify</a></li>
-                            <li><a href="search.html">Search</a></li>
-                            <li><a href="nestable.html">Nestable</a></li>
-                            <li><a href="sortable.html">Sortable</a></li>
-                            <li><a href="sticky.html">Sticky</a></li>
-                            <li><a href="timepicker.html">Timepicker</a></li>
-                            <li><a href="tooltip.html">Tooltip</a></li>
-                            <li><a href="upload.html">Upload</a></li>
+                            <li><a href="lightbox.html">灯箱</a></li>
+                            <li><a href="autocomplete.html">自动完成</a></li>
+                            <li><a href="datepicker.html">日期选择器</a></li>
+                            <li><a href="htmleditor.html">HTML 编辑器</a></li>
+                            <li><a href="slider.html">滚动条</a></li>
+                            <li><a href="slideset.html">滑块集</a></li>
+                            <li><a href="slideshow.html">幻灯片</a></li>
+                            <li><a href="parallax.html">视差</a></li>
+                            <li><a href="accordion.html">手风琴</a></li>
+                            <li><a href="notify.html">通知</a></li>
+                            <li><a href="search.html">搜索</a></li>
+                            <li><a href="nestable.html">可嵌套</a></li>
+                            <li><a href="sortable.html">可排序</a></li>
+                            <li><a href="sticky.html">附着</a></li>
+                            <li><a href="timepicker.html">时间选择器</a></li>
+                            <li><a href="tooltip.html">工具提示</a></li>
+                            <li><a href="upload.html">上传</a></li>
                         </ul>
                     </li>
                     <li class="uk-nav-divider"></li>
-                    <li><a href="../showcase/index.html">Showcase</a></li>
-                    <li><a href="tutorials.html">Tutorials</a></li>
+                    <li><a href="../showcase/index.html">案例展示</a></li>
+                    <li><a href="tutorials.html">视频教程</a></li>
                 </ul>
 
             </div>
