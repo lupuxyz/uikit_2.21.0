@@ -7,10 +7,6 @@ UIkit 2.22.0 中文文档翻译项目
 
 ###开始使用
   
-documentation_get-started.html  
-documentation_how-to-customize.html  
-documentation_layouts.html  
-  
 documentation_project-structure.html  
 documentation_less-sass.html  
 documentation_create-a-theme.html  
@@ -116,6 +112,9 @@ layouts_post.html
   
 ##DONE  
   
+documentation_get-started.html  @yunye  V  
+documentation_how-to-customize.html  @yunye  V  
+documentation_layouts.html  @yunye  V  
 index.html @yunye latest  V  
 button.html @李凯 2.21.0  
 list.html @Ccc 2.21.0  
