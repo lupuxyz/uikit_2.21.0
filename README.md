@@ -17,13 +17,6 @@ documentation_custom-prefix.html
   
 ###核心组件
   
-core.html---------------------------------------------@Ccc  
-  
-base.html	 
-print.html	 
-  
-grid.html	 
-panel.html	 
 block.html	 
 article.html	 
 comment.html	 
@@ -115,6 +108,14 @@ layouts_post.html
 documentation_get-started.html  @yunye  V  
 documentation_how-to-customize.html  @yunye  V  
 documentation_layouts.html  @yunye  V  
+  
+   
+  
+core.html  @yunye  V  
+base.html	 @yunye  V  
+print.html	 @yunye  V  
+grid.html	 @yunye  V  
+panel.html	 @yunye  V  
 index.html @yunye latest  V  
 button.html @李凯 2.21.0  
 list.html @Ccc 2.21.0  
