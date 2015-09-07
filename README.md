@@ -17,14 +17,6 @@ documentation_custom-prefix.html
   
 ###核心组件
   
-block.html	 
-article.html	 
-comment.html	 
-utility.html	
-flex.html	 
-cover.html	 
-  
-nav.html	 
 navbar.html	 
 subnav.html	 
 breadcrumb.html	 
@@ -117,6 +109,15 @@ print.html	 @yunye  V
 grid.html	 @yunye  V  
 panel.html	 @yunye  V  
 index.html @yunye latest  V  
+block.html	 @yunye  V  
+article.html	 @yunye  V  
+comment.html	 @yunye  V  
+utility.html	@yunye  V  
+flex.html	 @yunye  V  
+cover.html	 @yunye  V  
+  
+nav.html	 @yunye  V  
+  
 button.html @李凯 2.21.0  
 list.html @Ccc 2.21.0  
 form.html @Ccc 2.21.0  
