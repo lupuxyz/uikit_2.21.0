@@ -17,25 +17,6 @@ documentation_custom-prefix.html
   
 ###核心组件
   
-navbar.html	 
-subnav.html	 
-breadcrumb.html	 
-pagination.html	 
-tab.html	 
-thumbnav.html	 
-  
-description-list.html---------------------------------@Ccc  
-table.html--------------------------------------------@Ccc  
-  
-icon.html-----------------------------@李凯  	 
-close.html	 
-badge.html	 
-alert.html	 
-thumbnail.html	 
-overlay.html	 
-text.html	 
-animation.html	 
-contrast.html	 
   
 dropdown.html	 
 modal.html	 
@@ -121,6 +102,25 @@ nav.html	 @yunye  V
 button.html @李凯 2.21.0  
 list.html @Ccc 2.21.0  
 form.html @Ccc 2.21.0  
+navbar.html	 
+subnav.html	 
+breadcrumb.html	 
+pagination.html	 
+tab.html	 
+thumbnav.html	 
+  
+description-list.html @yunye  V  
+table.html @yunye  V  
+  
+icon.html @yunye  V  	 
+close.html	 @yunye  V  
+badge.html	 @yunye  V  
+alert.html	 @yunye  V  
+thumbnail.html	 @yunye  V  
+overlay.html	 @yunye  V  
+text.html	 @yunye  V  
+animation.html	@yunye  V   
+contrast.html	 @yunye  V  
 
 ## Browser Support
 
