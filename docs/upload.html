@@ -85,21 +85,24 @@
 
                         <article class="uk-article">
 
-                            <h1>Upload</h1>
+                            <h1>上传</h1>
 
-                            <p class="uk-article-lead">Allow users to upload files through a file input form element or a placeholder area.</p>
+                            <p class="uk-article-lead">
+                                允许用户通过输入框表单或占位符域实现上传文件功能。
+                            </p>
 
-                            <h2 id="usage"><a href="#usage" class="uk-link-reset">Usage</a></h2>
+                            <h2 id="usage"><a href="#usage" class="uk-link-reset">用法</a></h2>
 
-                            <p>This JavaScript component utilizes the latest XMLHttpRequest Level 2 specification and provides the ability of uploading files via ajax including tracking of the upload progress. The component provides two ways of uploading files: <code>select</code> and <code>drop</code>.
-                            While the <code>select</code> request can only be applied to <code>&lt;input type=&quot;file&quot;&gt;</code> elements, you can basically use any element with <code>drop</code>, which enables you to simply drag and drop files from your desktop into the specified element to upload them. Note that this component does not handle your file uploads on the server.</p>
+                            <p>这个JavaScript组件运用了最新的XMLHttpRequest Level 2规范，提供了通过Ajax上传文件的功能，并且可以通过进度条来进行文件上传进度追踪。本组件提供了两种上传文件的方式：<code>select</code> 和 <code>drop</code>。
+                            <code>select</code>请求只能被用在<code>&lt;input type=&quot;file&quot;&gt;</code>元素中，而<code>drop</code>基本可以用在任何元素，你可以将文件拖拽到指定元素位置实现上传。要注意的是，本组件并不在服务器端处理文件上传。
 
-                            <p>The Upload component always needs to be implemented individually according to your requirements. In our example case we used the <a href="placeholder.html">Placeholder</a> and the <a href="form-file.html">Form file</a> component, applying both the <code>drop</code> and <code>select</code> requests. Additionally we used the <a href="progress.html">Progress component</a> to illustrate the uploading progress.</p>
+                            <p>上传组件需要根据你的需求单独引用。在我们的例子中，我们使用<a href="placeholder.html">占位符</a> 和 <a href="form-file.html">文件表单</a> 组件，同时使用了<code>drop</code> and <code>select</code>请求。另外，我们用了<a href="progress.html">进度条</a> 来显示上传进度。
 
-                            <h3 class="tm-article-subtitle">Example</h3>
+                            
+                            <h3 class="tm-article-subtitle">示例</h3>
 
                             <div id="upload-drop" class="uk-placeholder uk-text-center">
-                                <i class="uk-icon-cloud-upload uk-icon-medium uk-text-muted uk-margin-small-right"></i> Attach binaries by dropping them here or <a class="uk-form-file">selecting one<input id="upload-select" type="file"></a>.
+                                <i class="uk-icon-cloud-upload uk-icon-medium uk-text-muted uk-margin-small-right"></i> 将文件拖拽至此 或 <a class="uk-form-file">选择一个文件<input id="upload-select" type="file"></a>。
                             </div>
 
                             <div id="progressbar" class="uk-progress uk-hidden">
@@ -161,7 +164,7 @@
                             <h3>JavaScript</h3>
 
                             <p>
-                                To create <code>select</code> and <code>drop</code> upload listeners you need to instantiate each upload class with the target element and options, which defines callbacks and useful settings.
+                                为了创建 <code>select</code> 和 <code>drop</code>上传监听器，你需要在目标元素和选项中实例化每个上传class，以定义回调和其他有用的设置。
                             </p>
 
 <pre><code>&lt;script&gt;
@@ -206,16 +209,16 @@
 
                             <hr class="uk-article-divider">
 
-                            <h2 id="javascript-options"><a href="#javascript-options" class="uk-link-reset">JavaScript options</a></h2>
+                            <h2 id="javascript-options"><a href="#javascript-options" class="uk-link-reset">JavaScript 选项</a></h2>
 
                             <div class="uk-overflow-container">
                                 <table class="uk-table uk-table-striped uk-text-nowrap">
                                     <thead>
                                         <tr>
-                                            <th>Option</th>
-                                            <th>Possible value</th>
-                                            <th>Default</th>
-                                            <th>Description</th>
+                                            <th>选项</th>
+                                            <th>可用值</th>
+                                            <th>默认值</th>
+                                            <th>描述</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -223,56 +226,56 @@
                                             <td><code>action</code></td>
                                             <td>string</td>
                                             <td>''</td>
-                                            <td>Target url for the upload</td>
+                                            <td>上传的目标URL</td>
                                         </tr>
                                         <tr>
                                             <td><code>single</code></td>
                                             <td>boolean</td>
                                             <td>true</td>
-                                            <td>Send each file one by one</td>
+                                            <td>逐一进行文件发送</td>
                                         </tr>
                                         <tr>
                                             <td><code>param</code></td>
                                             <td>string</td>
                                             <td>files[]</td>
-                                            <td>Post query name</td>
+                                            <td>传递查询名称</td>
                                         </tr>
                                         <tr>
                                             <td><code>params</code></td>
                                             <td>JSON Object</td>
                                             <td>{}</td>
-                                            <td>Additional request parameters</td>
+                                            <td>额外的请求参数</td>
                                         </tr>
                                         <tr>
                                             <td><code>allow</code></td>
                                             <td>string</td>
                                             <td>*.*</td>
-                                            <td>File filter</td>
+                                            <td>文件过滤器</td>
                                         </tr>
                                         <tr>
                                             <td><code>filelimit</code></td>
                                             <td>integer</td>
                                             <td>false</td>
-                                            <td>Limit the number of files to upload</td>
+                                            <td>限制上传文件数</td>
                                         </tr>
                                         <tr>
                                             <td><code>type</code></td>
                                             <td>(text | json)</td>
                                             <td>text</td>
-                                            <td>Response type from server</td>
+                                            <td>来自服务器端的响应类型</td>
                                         </tr>
                                     </tbody>
                                 </table>
                             </div>
 
-                            <h3>Callback events</h3>
+                            <h3>回调事件</h3>
 
                             <div class="uk-overflow-container">
                                 <table class="uk-table uk-table-striped">
                                     <thead>
                                         <tr>
-                                            <th>Name</th>
-                                            <th>Parameter</th>
+                                            <th>名称</th>
+                                            <th>参数</th>
                                         </tr>
                                     </thead>
                                     <tbody>
