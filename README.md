@@ -17,14 +17,7 @@ documentation_custom-prefix.html
   
 ###核心组件
   
-  
-dropdown.html	 
-modal.html	 
-offcanvas.html	 
-switcher.html	 
-toggle.html	 
-scrollspy.html	 
-smooth-scroll.html	 
+ALL DONE  
   
 ##附加组件
   
@@ -121,6 +114,14 @@ overlay.html	 @yunye  V
 text.html	 @yunye  V  
 animation.html	@yunye  V   
 contrast.html	 @yunye  V  
+  
+dropdown.html	 @yunye  V  
+modal.html	 @yunye  V  
+offcanvas.html	 @yunye  V  
+switcher.html	 @yunye  V  
+toggle.html	 @yunye  V  
+scrollspy.html	 @yunye  V  
+smooth-scroll.html	@yunye  V  
 
 ## Browser Support
 
