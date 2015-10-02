@@ -312,6 +312,12 @@ html {
 
 .tm-nav > li > a { color: #777; }
 
+.tm-nav > li > a span {
+    margin-left:3px;
+    color:#bbb;
+    font-size: 12px;
+}
+
 /* Hover */
 .tm-nav > li > a:hover,
 .tm-nav > li > a:focus,
