@@ -21,6 +21,17 @@ ALL DONE
   
 ##附加组件
   
+components.html	
+  
+grid-js.html	 
+  
+dotnav.html	 
+slidenav.html	 
+pagination-js.html	 
+  
+form-advanced.html	 
+form-file.html	 
+form-password.html	 
 form-select.html	
 placeholder.html	 
 progress.html	 
@@ -111,19 +122,18 @@ switcher.html	 @yunye  V
 toggle.html	 @yunye  V  
 scrollspy.html	 @yunye  V  
 smooth-scroll.html	@yunye  V  
+
+components.html	v  
   
+grid-js.html	 v  
   
-components.html	V
+dotnav.html	 v  
+slidenav.html	 v  
+pagination-js.html	 v  
   
-grid-js.html	 V
-  
-dotnav.html	 V
-slidenav.html	 V
-pagination-js.html	 V
-  
-form-advanced.html	 V
-form-file.html	 V
-form-password.html	 V
+form-advanced.html	 v  
+form-file.html	 v  
+form-password.html	 v  
 ## Browser Support
 
 ![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png)
