@@ -21,17 +21,7 @@ ALL DONE
   
 ##附加组件
   
-components.html	
-  
-grid-js.html	 
-  
-dotnav.html	 
-slidenav.html	 
-pagination-js.html	 
-  
-form-advanced.html	 
-form-file.html	 
-form-password.html	 
+
 form-select.html	
 placeholder.html	 
 progress.html	 
