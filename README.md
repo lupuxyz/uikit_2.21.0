@@ -2,7 +2,7 @@
 
 UIkit 2.22.0 中文文档翻译项目
 
-![UIkit 中文网](http://getuikit.net/)  
+[UIkit 中文网](http://getuikit.net/)  
 
 ## Browser 支持
 
